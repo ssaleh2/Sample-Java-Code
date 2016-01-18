@@ -1,0 +1,13 @@
+public void BlackLines(){
+	int horizontal = this.getHeight()/2;
+	int vertical = this.getWidth()/2;
+	Pixel[] cur_pic = this.getPixels();
+	for(int x = 0; x < cur_pic.length(); x++){
+		Pixel pixel = this.getPixel(cur_pic[x].getX(), cur_pic[x].getY());
+		if(pixel.getX()==vertical){
+			pixel.setColor(black);
+		}
+		else if(pixel.getY()==horizontal){
+			pixel.setColor(black);
+			
+			

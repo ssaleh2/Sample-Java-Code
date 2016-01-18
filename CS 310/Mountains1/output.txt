@@ -1,0 +1,164 @@
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+m
+Please enter the key (Name of Mountain): 
+
+Pomiu
+Pomiu, China, 17759
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+c
+Please enter the desired country: 
+
+Tanzania
+Kilimanjaro, Tanzania, 19344
+Mawenzi, Tanzania, 16893
+Meru, Mount, Tanzania, 14980
+Ol'Doinyo Lengai, Tanzania, 9442
+
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+n
+Please enter the number of mountains to display in descending order: 
+
+5
+Everest, Nepal/Tibet, 29035
+K2, China/Pakistan, 28250
+Kangchenjunga, India/Nepal, 28169
+Lhotse, Nepal/Tibet, 27939
+Makalu, Nepal/Tibet, 27765
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+a
+Please enter an altitude to display a mountain with the greatest altitude strictly less than the given altitude: 
+
+28251
+A mountain with an altitude close to 28251 is: 
+	K2, China/Pakistan, 28250
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+i
+Please insert a record in the format inside the parentheses 
+	(Name, Mount#Location#AltitudeInFeet): 
+
+GMU,Mount#Tanzania#31000
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+n
+Please enter the number of mountains to display in descending order: 
+
+2
+GMU,Mount, Tanzania, 31000
+Everest, Nepal/Tibet, 29035
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+m
+Please enter the key (Name of Mountain): 
+
+GMU,Mount
+GMU,Mount, Tanzania, 31000
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+c
+Please enter the desired country: 
+
+Tanzania
+Kilimanjaro, Tanzania, 19344
+Mawenzi, Tanzania, 16893
+Meru, Mount, Tanzania, 14980
+Ol'Doinyo Lengai, Tanzania, 9442
+GMU,Mount, Tanzania, 31000
+
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+m
+Please enter the key (Name of Mountain): 
+
+Foo
+There is no mountain named Foo
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
+c
+Please enter the desired country: 
+
+Foo
+There are no mountains in country Foo
+
+
+Please choose from the following options. 
+
+	* Insert a Mountain Record - i
+	* Display a Mountain Record - m 
+	* Display the n Highest Mountains - n 
+	* Display the Mountains in a Particular Country - c 
+	* Display a Mountain with a Given (or close to a given) Altitude - a 
+	* Quit - q
