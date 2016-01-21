@@ -84,21 +84,21 @@ public class Number {
 		}
 		//accounts for decimal places and creates linked list representaiton
 		for(int x=start; x<num.length()+1; x++){
-			Node<String> node = new Node<String>(placeValue[x]);
-			if ((x==1 || x ==2 || x==3) && !(placeValue[x].equals(".")) && !(placeValue[x].equals("-")) && (high.getElement() == null)){
+			Node<String> node = new Node<String>(placeValue[x-1]);
+			if ((x==1 || x ==2 || x==3) && !(placeValue[x-1].equals(".")) && !(placeValue[x-1].equals("-")) && (high.getElement() == null)){
 				this.high = node;
 				this.low = node;
 				node.setPrevious(null);
 				node.setNext(null);
 			}
-			else if (placeValue[x].equals(".") && onedecimal == true){
+			else if (placeValue[x-1].equals(".") && onedecimal == true){
 				//Number of decimal places is the numbers of characters in the string minus the values in front
 				//the decimal point minus the decimal point
 				this.decimalPlaces = num.length()-(x);
 				this.digitCount--;
 				onedecimal = false;
 			}
-			else if (placeValue[x].matches("[0-9]")){
+			else if (placeValue[x-1].matches("[0-9]")){
 				this.low.setNext(node);
 				node.setNext(null);
 				node.setPrevious(this.low);
